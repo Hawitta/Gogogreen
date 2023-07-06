@@ -1,0 +1,74 @@
+
+.trees { /*First section*/
+    text-align: left;
+    width: 96%;
+    margin: 25px;
+    border-radius: 3px;
+  }
+  
+  .tree img {
+    align-items: center;
+  }
+  
+  .row {
+    margin-top: 5%;
+    display: flex;
+  }
+  
+  .trees .columns { /*Arrangement of rows for facts*/
+    background: #4f7942;
+    border-radius: 5px;
+    margin-right: 20px;
+    padding: 10px 6px;
+    box-sizing: border-box;
+    text-align: left;
+  }
+  .columns img {
+    width: 40px;
+  }
+  
+  .row-plants{
+    min-width: 50%;
+    max-width: 100%;
+  }
+  .plants{
+    display: flex;
+    flex-direction: row;
+    margin: 50px auto;
+    max-width: 80%;
+    /* min-width: 110%; */
+  }
+  .plants-content{
+    width: 80%;
+    margin: 20px auto;
+  }
+  .plants img{
+    margin: 50px auto;
+    margin-right: 20px;
+    width: 10%;
+    height: 100%;
+    min-height: 20%;
+    
+  }
+  
+  .plants p { /*plants section*/
+    margin-top: -20px;
+    margin-right: 35px;
+    margin: 20px auto;
+    font-size: 18px;
+    /* padding: 40px; */
+  }
+   
+  .trees h2 { /*Did you know text*/
+    text-align: center;
+    font-size: 30px;
+    color: #4f7942;
+    padding: 8px;
+  }
+  
+  .plants h3 { /*text above image*/
+    margin: 10px auto;
+    color: #4f7942;
+    font-size: 27px;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  }

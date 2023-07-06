@@ -1,0 +1,89 @@
+p {
+    margin-left: 20px;
+    text-align: left;
+  }
+  
+  h4 {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+    margin-left: 10px;
+    color: #4f7942;
+  }
+  .header p { 
+    text-align: left;
+    margin-top: 0px;
+  }
+  
+  .header h5 {  /*Ongoing projects*/
+    font-size: 25px;
+    border-radius: 5px;
+    background-color: #4f7942;
+    line-height: 6vh;
+    padding: 10px;
+    color: #ffffff;
+    display: inline-block;
+    margin-left: 450px;
+    margin-top: 0px;
+  }
+  
+  .blocks img { /*images of the people planting*/
+    padding: 60px;
+    width: 78%;
+    margin-top: 5px;
+    margin-left: 10px;
+  }
+  
+  .blocks { /*design block of text*/
+    text-align: right;
+    margin-left: 100px;
+  }
+  
+  .column_projects {
+    margin-top: 8px;
+    float: left;
+    width: 40%;
+    padding: 20px;
+  }
+  
+  @media (max-width: 700px) {
+    .header h5 {
+      margin-top: 10px;
+      font-size: 15px;
+      margin-left: 130px;
+    }
+    .header p {
+      font-size: 16px;
+    }
+    .column_projects p {
+      width: 100%;
+      font-size: 14px;
+      margin-left: -95px;
+      text-align: left;
+    }
+  
+    .column_projects h4 {
+      font-size: 17px;
+      margin-left: -120px;
+      text-align: left;
+      margin-top: -20px;
+    }
+  
+    .column_projects img {
+      width: 130%;
+      display: block;
+      margin-left: 40px;
+      margin-top: -635px;
+      padding: 110px;
+      margin-bottom: 40px;
+    }
+  
+    .sidebar a {
+      font-size: 12px;
+      margin-left: 14px;
+      padding: 0px;
+    }
+  }
+  
+  
+ 
